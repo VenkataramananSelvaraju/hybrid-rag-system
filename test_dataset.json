@@ -1,0 +1,102 @@
+[
+    {
+        "question_id": 1,
+        "question": "how long did it take Wace to open the school 's hostel ?",
+        "ground_truth": "for the duration of the war",
+        "source_url": "https://en.wikipedia.org/wiki/Alan_Wace",
+        "source_chunk_id": 5327,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 2,
+        "question": "Which happened first, the meeting between Henry and the Saxon leaders or the outbreak of the revolt ?",
+        "ground_truth": "meeting between Henry and the Saxon leaders",
+        "source_url": "https://en.wikipedia.org/wiki/Henry_IV,_Holy_Roman_Emperor",
+        "source_chunk_id": 4955,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 3,
+        "question": "Who is the probable successor of the earliest consecration of the Church in Northumbria?",
+        "ground_truth": "Ithamar",
+        "source_url": "https://en.wikipedia.org/wiki/Paulinus_of_York",
+        "source_chunk_id": 2486,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 4,
+        "question": "Where might John have taken Lennon to ?",
+        "ground_truth": "New Zealand",
+        "source_url": "https://en.wikipedia.org/wiki/John_Lennon",
+        "source_chunk_id": 2421,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 5,
+        "question": "Which of the following is true of the Home Fleet after its command of the Home Fleet on 14 June 1944 ?",
+        "ground_truth": "The Home Fleet was unable to continue its operations.",
+        "source_url": "https://en.wikipedia.org/wiki/Operation_Mascot",
+        "source_chunk_id": 3188,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 6,
+        "question": "What did  common day schools '' teach in Wales ?",
+        "ground_truth": "an elementary-level curriculum",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_education_in_Wales_(1701%E2%80%931870)",
+        "source_chunk_id": 2629,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 7,
+        "question": "What is the oldest surviving church building in Stephens City ?",
+        "ground_truth": "Orrick Chapel",
+        "source_url": "https://en.wikipedia.org/wiki/Stephens_City,_Virginia",
+        "source_chunk_id": 3399,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 8,
+        "question": "Who is accused of lying ?",
+        "ground_truth": "Nixon",
+        "source_url": "https://en.wikipedia.org/wiki/Watergate_scandal",
+        "source_chunk_id": 4930,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 9,
+        "question": "What was the cause of his death ?",
+        "ground_truth": "death",
+        "source_url": "https://en.wikipedia.org/wiki/Charles_William_Fremantle",
+        "source_chunk_id": 7045,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 10,
+        "question": "What is the premise of Gao 's paintings ?",
+        "ground_truth": "Gao 's paintings to be a fusion of Chinese and Western art .",
+        "source_url": "https://en.wikipedia.org/wiki/Gao_Qifeng",
+        "source_chunk_id": 2343,
+        "metadata": {
+            "type": "factual"
+        }
+    }
+]

@@ -1,0 +1,26 @@
+# --- Core Data & NLP ---
+wikipedia-api>=0.6.0
+nltk>=3.8.1
+# sentence-transformers depends on torch; newer versions support Py3.14 better
+sentence-transformers>=3.0.0
+transformers>=4.40.0
+torch>=2.2.0
+
+# --- Retrieval Engines ---
+# Note: If faiss-cpu fails to build, see the note below
+faiss-cpu>=1.7.4
+rank-bm25>=0.2.2
+
+# --- User Interface ---
+streamlit>=1.30.0
+
+# --- Evaluation & Metrics ---
+bert-score>=0.3.13
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+tqdm>=4.66.0
+
+# --- Visualization ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
