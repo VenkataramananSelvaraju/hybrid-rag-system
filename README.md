@@ -1,6 +1,12 @@
 # Assignment 2: Hybrid RAG System with Automated Evaluation
 
 ## Group 72 - Hybrid RAG Implementation
+**Group Member Names:**
+* SATISH KUMAR PATHAK (2024AA05578) 100%
+* PRANAV DEWANGAN (2024AA05554) 100%
+* TRIPATHY BIJAY KUMAR (2024AA05067) 100%
+* SHRUTIKA ARORA(2023AC05440) 100%
+* VENKATARAMANAN S (2024AA05555) 100%
 
 ### 1. Project Overview
 This project implements a **Hybrid Retrieval-Augmented Generation (RAG)** system designed to answer questions from a corpus of 500 Wikipedia articles. It combines **Dense Retrieval** (Vector Search via FAISS) and **Sparse Retrieval** (Keyword Search via BM25) using **Reciprocal Rank Fusion (RRF)** to retrieve the most relevant context for a Generative LLM (`Flan-T5-base`).

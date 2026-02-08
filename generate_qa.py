@@ -7,8 +7,8 @@ from tqdm import tqdm  # For progress bar
 # --- Configuration ---
 CORPUS_FILE = "rag_corpus.json"
 OUTPUT_FILE = "test_dataset.json"
-NUM_QUESTIONS = 10  # Set to 100 for final assignment; 10 for testing
-MODEL_NAME = "google/flan-t5-base"  # Reusing the same model
+NUM_QUESTIONS = 10
+MODEL_NAME = "google/flan-t5-base"
 
 def load_corpus(filepath):
     with open(filepath, 'r') as f:
@@ -45,7 +45,6 @@ def generate_evaluation_dataset():
         context = chunk['text_content']
         
         # --- Step A: Generate Question ---
-        # We prompt the model to act as a teacher
         q_prompt = f"generate question: {context}"
         
         input_ids = tokenizer(q_prompt, return_tensors="pt", truncation=True, max_length=512).input_ids.to(device)
