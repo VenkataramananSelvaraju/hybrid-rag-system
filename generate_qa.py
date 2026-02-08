@@ -69,7 +69,7 @@ def generate_evaluation_dataset():
             "question_id": len(dataset) + 1,
             "question": question,
             "ground_truth": ground_truth,
-            "source_url": chunk['source_url'], # Crucial for MRR metric
+            "source_url": chunk['source_url'],
             "source_chunk_id": chunk['chunk_id'],
             "metadata": {
                 "type": "factual" # Placeholder for category

@@ -9,7 +9,7 @@ nltk.download('punkt')
 nltk.download('punkt_tab') 
 
 # --- CONFIGURATION ---
-USER_AGENT = "HybridRAG_Assignment/1.0 (contact: your_email@example.com)" # REQUIRED by Wikipedia API
+USER_AGENT = "HybridRAG_Assignment/1.0 (contact: 2024AA05555@wilp.bits-pilani.ac.in)" # REQUIRED by Wikipedia API
 MIN_WORDS = 200
 CHUNK_SIZE = 300      # Target tokens per chunk (within 200-400 range)
 CHUNK_OVERLAP = 50
@@ -94,16 +94,7 @@ def get_random_pages(target_count=300):
     """
     print(f"Fetching {target_count} random pages...")
     pages = []
-    # Wikipedia-API doesn't have a direct "random" method, so we usually 
-    # use a library or just pick from a massive category, or use the standard `random` module
-    # wrapping the underlying API call if needed. 
-    # A simple hack for this assignment is to fetch from a generic category listing 
-    # or rely on pre-selected diverse topics if random extraction is difficult.
-    
-    # However, to be compliant, we can try fetching 'Special:Random' concepts
-    # OR (more robustly) grab a large category and sample.
-    
-    # SIMPLIFIED APPROACH for assignment:
+
     # Use a large category like "Category:Featured_articles" to ensure quality
     cat = wiki.page("Category:Featured_articles")
     all_members = list(cat.categorymembers.values())

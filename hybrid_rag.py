@@ -8,6 +8,8 @@ import nltk
 import torch
 import os
 
+# Fix for MacOS Segmentation Fault
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 os.environ["OMP_NUM_THREADS"] = "1"
 
 # Ensure nltk data is ready
@@ -15,7 +17,7 @@ try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
-    nltk.download('punkt_tab') # often needed for newer NLTK versions
+    nltk.download('punkt_tab')
 
 class HybridRAG:
     def __init__(self, corpus_file="rag_corpus.json", model_name="all-MiniLM-L6-v2", llm_name="google/flan-t5-base"):
@@ -34,8 +36,10 @@ class HybridRAG:
             raise FileNotFoundError(f"Could not find {corpus_file}. Did you run data_prep.py?")
         
         # Lists to store text data for indexing
+        # We assume the list order is preserved, so index i in texts corresponds to index i in sources
         self.corpus_texts = [item['text_content'] for item in self.corpus]
         self.corpus_ids = [item['chunk_id'] for item in self.corpus]
+        self.corpus_sources = [item['source_url'] for item in self.corpus]  # <--- NEW: Store sources for O(1) lookup
         
         # --- 1. Initialize Dense Index (FAISS) ---
         print("Building Dense Index (FAISS)...")
@@ -56,17 +60,19 @@ class HybridRAG:
         # --- 3. Initialize Generator (LLM) ---
         print(f"Loading LLM: {llm_name}...")
         
-        # Fix for the "tied weights" warning
-        config = AutoConfig.from_pretrained(llm_name)
-        config.tie_word_embeddings = False 
-        
+        # STANDARD LOAD (Removes the 'tie_word_embeddings' fix which broke the model)
         self.tokenizer = AutoTokenizer.from_pretrained(llm_name)
-        self.model = AutoModelForSeq2SeqLM.from_pretrained(llm_name, config=config)
+        self.model = AutoModelForSeq2SeqLM.from_pretrained(llm_name)
         
-        # Move to GPU if available
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        # Move to GPU if available (MPS for Mac, CUDA for Nvidia, CPU otherwise)
+        if torch.cuda.is_available():
+            self.device = "cuda"
+        elif torch.backends.mps.is_available():
+            self.device = "mps" # Optimized for Mac M1/M2/M3
+        else:
+            self.device = "cpu"
+            
         self.model.to(self.device)
-        
         print(f"Hybrid RAG System Ready on {self.device}!")
 
     def search_dense(self, query, top_k=50):
@@ -82,6 +88,7 @@ class HybridRAG:
                 results.append({
                     "chunk_id": self.corpus_ids[idx],
                     "text": self.corpus_texts[idx],
+                    "source": self.corpus_sources[idx],
                     "rank": rank + 1,  # 1-based rank
                     "score": float(D[0][rank]) # Distance score
                 })
@@ -102,6 +109,7 @@ class HybridRAG:
             results.append({
                 "chunk_id": self.corpus_ids[idx],
                 "text": self.corpus_texts[idx],
+                "source": self.corpus_sources[idx],
                 "rank": rank + 1,
                 "score": float(scores[idx])
             })
@@ -133,8 +141,10 @@ class HybridRAG:
         # Reconstruct result objects
         final_results = []
         for cid, score in sorted_ids:
-            # Find the original doc data (inefficient but safe)
+            # Efficiently find the doc by checking our loaded lists (index lookup is tricky here due to sorting)
+            # So we use the robust lookup
             original_doc = next(item for item in self.corpus if item['chunk_id'] == cid)
+            
             final_results.append({
                 "chunk_id": cid,
                 "text": original_doc['text_content'],
@@ -148,25 +158,32 @@ class HybridRAG:
         """
         Generates an answer using the LLM and retrieved context.
         """
-        # Combine top chunks into a single context string
+        # 1. Safety Check
+        if not context_chunks:
+            return "I could not find relevant information in the provided documents."
+
+        # 2. Combine Context
         context_text = " ".join([c['text'] for c in context_chunks])
         
-        # Prompt Engineering
-        input_text = f"Context: {context_text}\n\nQuestion: {query}\n\nAnswer:"
+        # 3. Strict Prompting
+        input_text = f"question: {query} context: {context_text}"
         
-        # Tokenize
-        inputs = self.tokenizer(input_text, return_tensors="pt", max_length=512, truncation=True).to(self.device)
+        # 4. Tokenize
+        inputs = self.tokenizer(input_text, return_tensors="pt", max_length=1024, truncation=True).to(self.device)
         
-        # Generate directly using the model (Bypassing pipeline)
+        # 5. Generate (Deterministic Mode)
         outputs = self.model.generate(
-            **inputs, 
-            max_length=200, 
-            min_length=10, 
-            num_beams=4, # Slightly better quality than greedy search
-            early_stopping=True
+            **inputs,
+            max_new_tokens=200,      # Generate up to 200 new words
+            num_beams=5,             # Look 5 steps ahead (Smart search)
+            do_sample=False,         # DISABLE Sampling (Fixes the gibberish)
+            temperature=1.0,         # Reset temperature (ignored when do_sample=False)
+            repetition_penalty=1.2,  # Penalize repeating the same sentence
+            length_penalty=1.0,      # Encourage standard length answers
+            early_stopping=True      # Stop when the sentence is complete
         )
         
-        # Decode
+        # 6. Decode
         answer = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
         return answer
 

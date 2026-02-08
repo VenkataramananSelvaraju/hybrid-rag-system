@@ -1,0 +1,86 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Hybrid RAG Evaluation Report</title>
+        
+<style>
+    body { font-family: sans-serif; margin: 40px; line-height: 1.6; }
+    h1 { color: #2c3e50; border-bottom: 2px solid #2c3e50; }
+    h2 { color: #34495e; margin-top: 30px; }
+    table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+    th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    .metric-box { background: #e8f6f3; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 5px solid #1abc9c; }
+    img { max-width: 800px; margin: 20px 0; border: 1px solid #ddd; padding: 5px; }
+    .timestamp { color: #7f8c8d; font-size: 0.9em; }
+</style>
+
+    </head>
+    <body>
+        <h1>🧠 Hybrid RAG System Evaluation Report</h1>
+        <p class="timestamp">Generated on: 2026-02-08 12:26:05</p>
+        
+        <div class="metric-box">
+            <h2>📊 Executive Summary</h2>
+            <p><strong>Total Questions Evaluated:</strong> 10</p>
+            <ul>
+                <li><strong>Mean Reciprocal Rank (MRR):</strong> 0.8533 (Target: >0.5)</li>
+                <li><strong>Precision@5:</strong> 0.6600</li>
+                <li><strong>Semantic Accuracy (BERTScore F1):</strong> 0.8786</li>
+                <li><strong>Avg Response Time:</strong> 0.5164 sec</li>
+            </ul>
+        </div>
+
+        <h2>📈 Innovation: Ablation Study</h2>
+        <p>Comparison of retrieval methods (Dense vs. Sparse vs. Hybrid).</p>
+        <img src="ablation_results.png" alt="Ablation Study Chart">
+        
+        <h2>📋 Detailed Failure Analysis (Bottom 5 Queries)</h2>
+        <p>The following queries received the lowest scores and represent areas for improvement:</p>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>question</th>
+      <th>ground_truth</th>
+      <th>generated_answer</th>
+      <th>mrr_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>What is the main theme of the book ?</td>
+      <td>The Good Terrorist</td>
+      <td>The theme of movement</td>
+      <td>0.200000</td>
+    </tr>
+    <tr>
+      <td>What was the most exciting review of the film ?</td>
+      <td>The New York Times called Karloff  so splendid in the role that all one can say is 'he is the Monster '' .</td>
+      <td>Apocalypse</td>
+      <td>0.333333</td>
+    </tr>
+    <tr>
+      <td>what may be the reason the author would eat a omelette and cold ham on Christmas Day ?</td>
+      <td>a glass of wine</td>
+      <td>to enjoy a glass of wine .</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <td>On which side was the original Custom House located ?</td>
+      <td>side</td>
+      <td>Wall Street</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <td>Who was portrayed as the femme fatale in early stories ?</td>
+      <td>Black Widow</td>
+      <td>Black Widow</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+        
+    </body>
+    </html>
+    

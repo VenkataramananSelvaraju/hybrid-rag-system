@@ -1,0 +1,11 @@
+question_id,question,generated_answer,ground_truth,mrr_score,precision_at_5,response_time,bert_f1
+1,what may be the reason the author would eat a omelette and cold ham on Christmas Day ?,to enjoy a glass of wine .,a glass of wine,1.0,1.0,1.0081870555877686,0.9393296837806702
+2,On which side was the original Custom House located ?,Wall Street,side,1.0,1.0,0.5357091426849365,0.8185135126113892
+3,Who was portrayed as the femme fatale in early stories ?,Black Widow,Black Widow,1.0,0.8,0.3883180618286133,0.9999998807907104
+4,What may have happened if the cyclone reentered the Atlantic during the day and reached Cape Cod on the evening of September 7 and 8 ?,many ships were stricken,New York,1.0,0.6,0.5090692043304443,0.8238966464996338
+5,What is the German side's view of the battle ?,generally considered a tactical success,tactical success,1.0,0.6,0.446591854095459,0.9082209467887878
+6,What was the cause of the marriage of Walter and Helen Kepler ?,Protestant,Kepler had inherited his grandfather 's nobility,1.0,1.0,0.33100104331970215,0.839464008808136
+7,What was the most exciting review of the film ?,Apocalypse,The New York Times called Karloff  so splendid in the role that all one can say is 'he is the Monster '' .,0.3333333333333333,0.2,0.6974859237670898,0.8269179463386536
+8,Ireland was a constituent part of the United Kingdom from which point in time ?,17 July 1956,1870,1.0,1.0,0.36790990829467773,0.8830743432044983
+9,What is the main theme of the book ?,The theme of movement,The Good Terrorist,0.2,0.2,0.3519630432128906,0.8846165537834167
+10,What was the basis of the early machine learning experiments?,the need to understand how organisms adapt to complex environments,perceptron learning algorithms,1.0,0.2,0.5281400680541992,0.8623995184898376

@@ -1,100 +1,100 @@
 [
     {
         "question_id": 1,
-        "question": "how long did it take Wace to open the school 's hostel ?",
-        "ground_truth": "for the duration of the war",
-        "source_url": "https://en.wikipedia.org/wiki/Alan_Wace",
-        "source_chunk_id": 5327,
+        "question": "what may be the reason the author would eat a omelette and cold ham on Christmas Day ?",
+        "ground_truth": "a glass of wine",
+        "source_url": "https://en.wikipedia.org/wiki/Elizabeth_David",
+        "source_chunk_id": 4821,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 2,
-        "question": "Which happened first, the meeting between Henry and the Saxon leaders or the outbreak of the revolt ?",
-        "ground_truth": "meeting between Henry and the Saxon leaders",
-        "source_url": "https://en.wikipedia.org/wiki/Henry_IV,_Holy_Roman_Emperor",
-        "source_chunk_id": 4955,
+        "question": "On which side was the original Custom House located ?",
+        "ground_truth": "side",
+        "source_url": "https://en.wikipedia.org/wiki/Alexander_Hamilton_U.S._Custom_House",
+        "source_chunk_id": 4986,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 3,
-        "question": "Who is the probable successor of the earliest consecration of the Church in Northumbria?",
-        "ground_truth": "Ithamar",
-        "source_url": "https://en.wikipedia.org/wiki/Paulinus_of_York",
-        "source_chunk_id": 2486,
+        "question": "Who was portrayed as the femme fatale in early stories ?",
+        "ground_truth": "Black Widow",
+        "source_url": "https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)",
+        "source_chunk_id": 682,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 4,
-        "question": "Where might John have taken Lennon to ?",
-        "ground_truth": "New Zealand",
-        "source_url": "https://en.wikipedia.org/wiki/John_Lennon",
-        "source_chunk_id": 2421,
+        "question": "What may have happened if the cyclone reentered the Atlantic during the day and reached Cape Cod on the evening of September 7 and 8 ?",
+        "ground_truth": "New York",
+        "source_url": "https://en.wikipedia.org/wiki/1850_Atlantic_hurricane_season",
+        "source_chunk_id": 832,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 5,
-        "question": "Which of the following is true of the Home Fleet after its command of the Home Fleet on 14 June 1944 ?",
-        "ground_truth": "The Home Fleet was unable to continue its operations.",
-        "source_url": "https://en.wikipedia.org/wiki/Operation_Mascot",
-        "source_chunk_id": 3188,
+        "question": "What is the German side's view of the battle ?",
+        "ground_truth": "tactical success",
+        "source_url": "https://en.wikipedia.org/wiki/Battle_of_Prokhorovka",
+        "source_chunk_id": 6486,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 6,
-        "question": "What did  common day schools '' teach in Wales ?",
-        "ground_truth": "an elementary-level curriculum",
-        "source_url": "https://en.wikipedia.org/wiki/History_of_education_in_Wales_(1701%E2%80%931870)",
-        "source_chunk_id": 2629,
+        "question": "What was the cause of the marriage of Walter and Helen Kepler ?",
+        "ground_truth": "Kepler had inherited his grandfather 's nobility",
+        "source_url": "https://en.wikipedia.org/wiki/Johannes_Kepler",
+        "source_chunk_id": 5187,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 7,
-        "question": "What is the oldest surviving church building in Stephens City ?",
-        "ground_truth": "Orrick Chapel",
-        "source_url": "https://en.wikipedia.org/wiki/Stephens_City,_Virginia",
-        "source_chunk_id": 3399,
+        "question": "What was the most exciting review of the film ?",
+        "ground_truth": "The New York Times called Karloff  so splendid in the role that all one can say is 'he is the Monster '' .",
+        "source_url": "https://en.wikipedia.org/wiki/Bride_of_Frankenstein",
+        "source_chunk_id": 4769,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 8,
-        "question": "Who is accused of lying ?",
-        "ground_truth": "Nixon",
-        "source_url": "https://en.wikipedia.org/wiki/Watergate_scandal",
-        "source_chunk_id": 4930,
+        "question": "Ireland was a constituent part of the United Kingdom from which point in time ?",
+        "ground_truth": "1870",
+        "source_url": "https://en.wikipedia.org/wiki/Irish_nationality_law",
+        "source_chunk_id": 2008,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 9,
-        "question": "What was the cause of his death ?",
-        "ground_truth": "death",
-        "source_url": "https://en.wikipedia.org/wiki/Charles_William_Fremantle",
-        "source_chunk_id": 7045,
+        "question": "What is the main theme of the book ?",
+        "ground_truth": "The Good Terrorist",
+        "source_url": "https://en.wikipedia.org/wiki/The_Good_Terrorist",
+        "source_chunk_id": 2331,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 10,
-        "question": "What is the premise of Gao 's paintings ?",
-        "ground_truth": "Gao 's paintings to be a fusion of Chinese and Western art .",
-        "source_url": "https://en.wikipedia.org/wiki/Gao_Qifeng",
-        "source_chunk_id": 2343,
+        "question": "What was the basis of the early machine learning experiments?",
+        "ground_truth": "perceptron learning algorithms",
+        "source_url": "https://en.wikipedia.org/wiki/Learnable_function",
+        "source_chunk_id": 481,
         "metadata": {
             "type": "factual"
         }
