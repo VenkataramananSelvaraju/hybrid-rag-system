@@ -1,100 +1,930 @@
 [
     {
         "question_id": 1,
-        "question": "what may be the reason the author would eat a omelette and cold ham on Christmas Day ?",
-        "ground_truth": "a glass of wine",
-        "source_url": "https://en.wikipedia.org/wiki/Elizabeth_David",
-        "source_chunk_id": 4821,
+        "question": "How did Wollstonecraft feel after her suicide attempt ?",
+        "ground_truth": "She felt inhumanly brought back to life and misery .",
+        "source_url": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft",
+        "source_chunk_id": 4102,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 2,
-        "question": "On which side was the original Custom House located ?",
-        "ground_truth": "side",
-        "source_url": "https://en.wikipedia.org/wiki/Alexander_Hamilton_U.S._Custom_House",
-        "source_chunk_id": 4986,
+        "question": "What is the first name of the person who published \" The Kepler-Kommission\"?",
+        "ground_truth": "Johannes",
+        "source_url": "https://en.wikipedia.org/wiki/Johannes_Kepler",
+        "source_chunk_id": 5233,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 3,
-        "question": "Who was portrayed as the femme fatale in early stories ?",
-        "ground_truth": "Black Widow",
-        "source_url": "https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)",
-        "source_chunk_id": 682,
+        "question": "Where was Fanny Holtzmann born ?",
+        "ground_truth": "London",
+        "source_url": "https://en.wikipedia.org/wiki/The_King_and_I",
+        "source_chunk_id": 3246,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 4,
-        "question": "What may have happened if the cyclone reentered the Atlantic during the day and reached Cape Cod on the evening of September 7 and 8 ?",
-        "ground_truth": "New York",
-        "source_url": "https://en.wikipedia.org/wiki/1850_Atlantic_hurricane_season",
-        "source_chunk_id": 832,
+        "question": "Who did the novel influence?",
+        "ground_truth": "American writers",
+        "source_url": "https://en.wikipedia.org/wiki/Logan_(novel)",
+        "source_chunk_id": 5502,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 5,
-        "question": "What is the German side's view of the battle ?",
-        "ground_truth": "tactical success",
-        "source_url": "https://en.wikipedia.org/wiki/Battle_of_Prokhorovka",
-        "source_chunk_id": 6486,
+        "question": "What type of computer scientist is considered a person who has acquired the knowledge of computer science ?",
+        "ground_truth": "computer scientist",
+        "source_url": "https://en.wikipedia.org/wiki/Glossary_of_computer_science",
+        "source_chunk_id": 385,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 6,
-        "question": "What was the cause of the marriage of Walter and Helen Kepler ?",
-        "ground_truth": "Kepler had inherited his grandfather 's nobility",
-        "source_url": "https://en.wikipedia.org/wiki/Johannes_Kepler",
-        "source_chunk_id": 5187,
+        "question": "What might have happened if Warren had won a lawsuit ?",
+        "ground_truth": "reprinted the strips",
+        "source_url": "https://en.wikipedia.org/wiki/Goodman_Beaver",
+        "source_chunk_id": 4168,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 7,
-        "question": "What was the most exciting review of the film ?",
-        "ground_truth": "The New York Times called Karloff  so splendid in the role that all one can say is 'he is the Monster '' .",
-        "source_url": "https://en.wikipedia.org/wiki/Bride_of_Frankenstein",
-        "source_chunk_id": 4769,
+        "question": "In the atmosphere , what is the amount of water that is dissolved in the nitrogen gas ?",
+        "ground_truth": ".",
+        "source_url": "https://en.wikipedia.org/wiki/Neptune",
+        "source_chunk_id": 6964,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 8,
-        "question": "Ireland was a constituent part of the United Kingdom from which point in time ?",
-        "ground_truth": "1870",
-        "source_url": "https://en.wikipedia.org/wiki/Irish_nationality_law",
-        "source_chunk_id": 2008,
+        "question": "What was the title of the work the artist wrote ?",
+        "ground_truth": "Nocturne : Blue and Gold \u2013 Old Battersea Bridge",
+        "source_url": "https://en.wikipedia.org/wiki/Battersea_Bridge",
+        "source_chunk_id": 3388,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 9,
-        "question": "What is the main theme of the book ?",
-        "ground_truth": "The Good Terrorist",
-        "source_url": "https://en.wikipedia.org/wiki/The_Good_Terrorist",
-        "source_chunk_id": 2331,
+        "question": "Which of the following is true of the artist ?",
+        "ground_truth": "Swift wrote Bad Blood .",
+        "source_url": "https://en.wikipedia.org/wiki/Bad_Blood_(Taylor_Swift_song)",
+        "source_chunk_id": 1719,
         "metadata": {
             "type": "factual"
         }
     },
     {
         "question_id": 10,
-        "question": "What was the basis of the early machine learning experiments?",
-        "ground_truth": "perceptron learning algorithms",
+        "question": "What country did the task force arrive in ?",
+        "ground_truth": "South Korea",
+        "source_url": "https://en.wikipedia.org/wiki/Battle_of_Osan",
+        "source_chunk_id": 6879,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 11,
+        "question": "Where was Metallica's first studio album released ?",
+        "ground_truth": "Sweet Silence Studios in Copenhagen , Denmark",
+        "source_url": "https://en.wikipedia.org/wiki/Metallica",
+        "source_chunk_id": 987,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 12,
+        "question": "Which song was a top ten hit of 2018?",
+        "ground_truth": "Delicate",
+        "source_url": "https://en.wikipedia.org/wiki/Delicate_(Taylor_Swift_song)",
+        "source_chunk_id": 2094,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 13,
+        "question": "Where might I find this text ?",
+        "ground_truth": "Album",
+        "source_url": "https://en.wikipedia.org/wiki/Alice_in_Chains",
+        "source_chunk_id": 2820,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 14,
+        "question": "How long after Oblivion is made will it be released ?",
+        "ground_truth": "The game will be released on the Xbox 360 on May 16 , 2005 .",
+        "source_url": "https://en.wikipedia.org/wiki/Development_of_The_Elder_Scrolls_IV:_Oblivion",
+        "source_chunk_id": 5727,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 15,
+        "question": "Modern physics is concerned with what ?",
+        "ground_truth": "the behavior of matter and energy under extreme conditions or on a very large or very small scale",
+        "source_url": "https://en.wikipedia.org/wiki/Physics",
+        "source_chunk_id": 9,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 16,
+        "question": "what is the brain opioid theory of social attachment ?",
+        "ground_truth": "BOTSA was a long-running theory summarizing this connection",
+        "source_url": "https://en.wikipedia.org/wiki/Biology_of_romantic_love",
+        "source_chunk_id": 618,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 17,
+        "question": "Who was second in the Hart Trophy voting ?",
+        "ground_truth": "Richard",
+        "source_url": "https://en.wikipedia.org/wiki/Maurice_Richard",
+        "source_chunk_id": 5010,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 18,
+        "question": "What does Barton Fink 's character 's wife want to do ?",
+        "ground_truth": "drink",
+        "source_url": "https://en.wikipedia.org/wiki/Barton_Fink",
+        "source_chunk_id": 4251,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 19,
+        "question": "Phillips was on the national team at the 2008 Summer Olympics , which event was the first time a player had such a minor role on the team ?",
+        "ground_truth": "2008 Summer Olympics",
+        "source_url": "https://en.wikipedia.org/wiki/Erin_Phillips",
+        "source_chunk_id": 3067,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 20,
+        "question": "What was Brougham Castle built for ?",
+        "ground_truth": "The castle was built for the king 's control over more land .",
+        "source_url": "https://en.wikipedia.org/wiki/Brougham_Castle",
+        "source_chunk_id": 2651,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 21,
+        "question": "What year did Altgens begin his AP career ?",
+        "ground_truth": "1919",
+        "source_url": "https://en.wikipedia.org/wiki/Ike_Altgens",
+        "source_chunk_id": 1941,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 22,
+        "question": "When was the ship modernized ?",
+        "ground_truth": "1934\u20131936",
+        "source_url": "https://en.wikipedia.org/wiki/Japanese_battleship_Nagato",
+        "source_chunk_id": 3024,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 23,
+        "question": "What were the northern and southern histories based on?",
+        "ground_truth": "Cistercian houses",
+        "source_url": "https://en.wikipedia.org/wiki/Liber_Eliensis",
+        "source_chunk_id": 782,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 24,
+        "question": "Which of the following films was a Canadian pioneer in early Hollywood : Malice in Wonderland , James Dean , Race with Destiny, Michael Connors , Len Kaserman or The Three Stooges ?",
+        "ground_truth": "Malice in Wonderland",
+        "source_url": "https://en.wikipedia.org/wiki/Jack_L._Warner",
+        "source_chunk_id": 4375,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 25,
+        "question": "Who did Borchgrevink have a close ties to?",
+        "ground_truth": "Sir James Clark Ross",
+        "source_url": "https://en.wikipedia.org/wiki/Carsten_Borchgrevink",
+        "source_chunk_id": 6084,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 26,
+        "question": "By how much did the ship remain in Italian hands after it left Italy ?",
+        "ground_truth": "3.3 in",
+        "source_url": "https://en.wikipedia.org/wiki/SMS_Niobe",
+        "source_chunk_id": 1470,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 27,
+        "question": "How many years after taking office did Arthur take office?",
+        "ground_truth": "4",
+        "source_url": "https://en.wikipedia.org/wiki/Chester_A._Arthur",
+        "source_chunk_id": 6203,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 28,
+        "question": "What is the name of the gaspar that was discovered in 1969 by John S. Dewan ?",
+        "ground_truth": "Gaspra",
+        "source_url": "https://en.wikipedia.org/wiki/Asteroid_belt",
+        "source_chunk_id": 6911,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 29,
+        "question": "What is Sorabji 's occupation ?",
+        "ground_truth": "composer",
+        "source_url": "https://en.wikipedia.org/wiki/Kaikhosru_Shapurji_Sorabji",
+        "source_chunk_id": 1763,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 30,
+        "question": "Garrard was entitled to claim what ?",
+        "ground_truth": "any vacant land",
+        "source_url": "https://en.wikipedia.org/wiki/James_Garrard",
+        "source_chunk_id": 4176,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 31,
+        "question": "Who wrote the book \" Mushrooms and Other Fungi of North America ?\"",
+        "ground_truth": "Phillips , Roger , Geoffrey Kibby , Nicky Foy",
+        "source_url": "https://en.wikipedia.org/wiki/Bibliography_of_encyclopedias:_biology",
+        "source_chunk_id": 563,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 32,
+        "question": "What might be the reason that the band 's only similarity to the other groups is the confidence with which they perform ?",
+        "ground_truth": "The band 's work is a tribute to the Velvet Underground .",
+        "source_url": "https://en.wikipedia.org/wiki/Is_This_It",
+        "source_chunk_id": 2108,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 33,
+        "question": "What is Atomic physics a study of ?",
+        "ground_truth": "matter",
+        "source_url": "https://en.wikipedia.org/wiki/Physics",
+        "source_chunk_id": 16,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 34,
+        "question": "Why did David hate the Guide Michelin standards ?",
+        "ground_truth": "She deplored ' fussy garnish ... distract [ ing ] from the main flavours",
+        "source_url": "https://en.wikipedia.org/wiki/Elizabeth_David",
+        "source_chunk_id": 4802,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 35,
+        "question": "What is the biological basis of romantic love ?",
+        "ground_truth": "biological psychology",
+        "source_url": "https://en.wikipedia.org/wiki/Biology_of_romantic_love",
+        "source_chunk_id": 593,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 36,
+        "question": "What's the date of the works of 1113 to 1116 ?",
+        "ground_truth": "1116",
+        "source_url": "https://en.wikipedia.org/wiki/Nicholas_of_Worcester",
+        "source_chunk_id": 4431,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 37,
+        "question": "What is the meaning of software as used in the context of the following?",
+        "ground_truth": "deployment",
+        "source_url": "https://en.wikipedia.org/wiki/Glossary_of_computer_science",
+        "source_chunk_id": 433,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 38,
+        "question": "What country did the Australian command scout for ?",
+        "ground_truth": "France",
+        "source_url": "https://en.wikipedia.org/wiki/First_Battle_of_Dernancourt",
+        "source_chunk_id": 4463,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 39,
+        "question": "what happened to Richard 's companion ?",
+        "ground_truth": "Illness and death",
+        "source_url": "https://en.wikipedia.org/wiki/Maurice_Richard",
+        "source_chunk_id": 5022,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 40,
+        "question": "who was the director of the school ?",
+        "ground_truth": "Kavvadias",
+        "source_url": "https://en.wikipedia.org/wiki/Panagiotis_Kavvadias",
+        "source_chunk_id": 7183,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 41,
+        "question": "What was the captain's last words after he refused to allow Jones on board his ship ?",
+        "ground_truth": "\"I'm sorry .",
+        "source_url": "https://en.wikipedia.org/wiki/The_boy_Jones",
+        "source_chunk_id": 6015,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 42,
+        "question": "what is the narrator describing ?",
+        "ground_truth": "The ships of the period .",
+        "source_url": "https://en.wikipedia.org/wiki/Derfflinger-class_battlecruiser",
+        "source_chunk_id": 5568,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 43,
+        "question": "Who are the earliest people known to have ancestry in Mexico ?",
+        "ground_truth": "Mayan language family has no demonstrated genetic relationship to other language families",
+        "source_url": "https://en.wikipedia.org/wiki/Mayan_languages",
+        "source_chunk_id": 5805,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 44,
+        "question": "Which of the following is true of Cher ?",
+        "ground_truth": "She is a high-fashion star .",
+        "source_url": "https://en.wikipedia.org/wiki/Cher",
+        "source_chunk_id": 3621,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 45,
+        "question": "What did the United Kingdom and France declare war on in 1939 ?",
+        "ground_truth": "Germany",
+        "source_url": "https://en.wikipedia.org/wiki/Winter_War",
+        "source_chunk_id": 6107,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 46,
+        "question": "Who did Lansbury dislike the most ?",
+        "ground_truth": "the king",
+        "source_url": "https://en.wikipedia.org/wiki/George_Lansbury",
+        "source_chunk_id": 1542,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 47,
+        "question": "What is characteristic about G. triplex rays ?",
+        "ground_truth": "the outer surface of the rays cracks",
+        "source_url": "https://en.wikipedia.org/wiki/Geastrum_triplex",
+        "source_chunk_id": 5719,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 48,
+        "question": "rk2 and rkrk=[] For a given pair of integers , the quotient qk, k, and remainder rk are computed with what number of steps?",
+        "ground_truth": "n + 0.06",
+        "source_url": "https://en.wikipedia.org/wiki/Euclidean_algorithm",
+        "source_chunk_id": 5626,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 49,
+        "question": "What kind of plant was there that lived before the watershed was cut off ?",
+        "ground_truth": "ecosystem",
+        "source_url": "https://en.wikipedia.org/wiki/Aliso_Creek_(Orange_County)",
+        "source_chunk_id": 5528,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 50,
+        "question": "What year was Helicopter 66 first commissioned by NASA?",
+        "ground_truth": "1969",
+        "source_url": "https://en.wikipedia.org/wiki/Helicopter_66",
+        "source_chunk_id": 4421,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 51,
+        "question": "The two guns were placed so , where was it likely that they were ?",
+        "ground_truth": "inside a collapsible deckhouse",
+        "source_url": "https://en.wikipedia.org/wiki/William_Edward_Sanders",
+        "source_chunk_id": 7053,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 52,
+        "question": "What is the larnax ?",
+        "ground_truth": "small coffin or ash-chest",
+        "source_url": "https://en.wikipedia.org/wiki/Funerary_art",
+        "source_chunk_id": 1964,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 53,
+        "question": "What movie came in second in its third weekend ?",
+        "ground_truth": "Christopher Robin",
+        "source_url": "https://en.wikipedia.org/wiki/Mission:_Impossible_%E2%80%93_Fallout",
+        "source_chunk_id": 1831,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 54,
+        "question": "What kind of disease is Maraviroc?",
+        "ground_truth": "HIV",
+        "source_url": "https://en.wikipedia.org/wiki/High_throughput_biology",
+        "source_chunk_id": 664,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 55,
+        "question": "Why is a reputable museum a popular choice for a burial place ?",
+        "ground_truth": "Buddhists .",
+        "source_url": "https://en.wikipedia.org/wiki/Funerary_art",
+        "source_chunk_id": 1972,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 56,
+        "question": "What date did Simon Jenkins meet Coke ?",
+        "ground_truth": "1931",
+        "source_url": "https://en.wikipedia.org/wiki/Holkham_Hall",
+        "source_chunk_id": 1578,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 57,
+        "question": "Who were the four people who dated Cher from 1986 to 1989 ?",
+        "ground_truth": "Ron Duguay",
+        "source_url": "https://en.wikipedia.org/wiki/Cher",
+        "source_chunk_id": 3596,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 58,
+        "question": "Who landed safely in Bod ?",
+        "ground_truth": "Lydekker",
+        "source_url": "https://en.wikipedia.org/wiki/Caesar_Hull",
+        "source_chunk_id": 3399,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 59,
+        "question": "What is the name of the Self Driving Database ?",
+        "ground_truth": "Self Driving Database",
         "source_url": "https://en.wikipedia.org/wiki/Learnable_function",
-        "source_chunk_id": 481,
+        "source_chunk_id": 482,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 60,
+        "question": "what did Thorne do ?",
+        "ground_truth": "eloped with Gott",
+        "source_url": "https://en.wikipedia.org/wiki/Margaret_Lea_Houston",
+        "source_chunk_id": 6597,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 61,
+        "question": "Who is Logan ?",
+        "ground_truth": "the author",
+        "source_url": "https://en.wikipedia.org/wiki/Logan_(novel)",
+        "source_chunk_id": 5515,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 62,
+        "question": "Who did Piquet lead ?",
+        "ground_truth": "Rosberg",
+        "source_url": "https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship",
+        "source_chunk_id": 4504,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 63,
+        "question": "How long is the dorsal stripe running ?",
+        "ground_truth": "The dorsal stripe runs from the skull along the spine to the start of the tail .",
+        "source_url": "https://en.wikipedia.org/wiki/Hoxne_Hoard",
+        "source_chunk_id": 1355,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 64,
+        "question": "In the first millennium BC what did the pottery industry mainly do ?",
+        "ground_truth": "pottery industry mainly made pottery from the Middle Bronze Age to the present-day .",
+        "source_url": "https://en.wikipedia.org/wiki/Great_Wilbraham_(causewayed_enclosure)",
+        "source_chunk_id": 2317,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 65,
+        "question": "Why did the saxophone not always use the saxophone ?",
+        "ground_truth": "The saxophone is not always used",
+        "source_url": "https://en.wikipedia.org/wiki/Saxophone_Sonata_(Creston)",
+        "source_chunk_id": 5712,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 66,
+        "question": "What kind of fighting did the Red Army units engage the Soviet forces in ?",
+        "ground_truth": "house-to-house and hand-to-hand fighting",
+        "source_url": "https://en.wikipedia.org/wiki/Battle_of_Prokhorovka",
+        "source_chunk_id": 6482,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 67,
+        "question": "who are granted Irish citizenship if their birth is registered in the Foreign Birth Register or their parent was in public service while resident abroad ?",
+        "ground_truth": "Irish parents who were also born overseas",
+        "source_url": "https://en.wikipedia.org/wiki/Irish_nationality_law",
+        "source_chunk_id": 2025,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 68,
+        "question": "What is the name of the actor who starred in The King and I ?",
+        "ground_truth": "Yul Brynner",
+        "source_url": "https://en.wikipedia.org/wiki/The_King_and_I",
+        "source_chunk_id": 3244,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 69,
+        "question": "who was Panagiotis Efstratiadis ?",
+        "ground_truth": "Ephor General",
+        "source_url": "https://en.wikipedia.org/wiki/Panagiotis_Kavvadias",
+        "source_chunk_id": 7176,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 70,
+        "question": "what shape ?",
+        "ground_truth": "sandstone",
+        "source_url": "https://en.wikipedia.org/wiki/Royal_necropolis_of_Byblos",
+        "source_chunk_id": 2472,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 71,
+        "question": "What did the Soviet army aim to do on the Karelian Isthmus ?",
+        "ground_truth": "break the Mannerheim Line",
+        "source_url": "https://en.wikipedia.org/wiki/Winter_War",
+        "source_chunk_id": 6119,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 72,
+        "question": "What is the style of the tombs that appear to be buried in a white church ?",
+        "ground_truth": "Gothic",
+        "source_url": "https://en.wikipedia.org/wiki/Funerary_art",
+        "source_chunk_id": 1985,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 73,
+        "question": "Who reported a total of 60 to 80 tanks and assault guns?",
+        "ground_truth": "Schlachtgeschwader 1",
+        "source_url": "https://en.wikipedia.org/wiki/Battle_of_Prokhorovka",
+        "source_chunk_id": 6484,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 74,
+        "question": "What was the most significant military achievement in the Finnish Air Force by the end of the war ?",
+        "ground_truth": "planes in the Finnish Air Force rose by over 50 per cent by the end of the war .",
+        "source_url": "https://en.wikipedia.org/wiki/Winter_War",
+        "source_chunk_id": 6138,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 75,
+        "question": "What was the cause of the First World War ?",
+        "ground_truth": "independence , the British government decided to grant self-government in 1923 .",
+        "source_url": "https://en.wikipedia.org/wiki/Southern_Rhodesia_in_World_War_I",
+        "source_chunk_id": 3459,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 76,
+        "question": "What is the relationship of first sight attraction and the core components of romantic love ?",
+        "ground_truth": "courtship attraction only encompasses love at first sight attraction or a crush",
+        "source_url": "https://en.wikipedia.org/wiki/Biology_of_romantic_love",
+        "source_chunk_id": 603,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 77,
+        "question": "In what year did Shakespeare first write \"The King's Men\"?",
+        "ground_truth": "1585",
+        "source_url": "https://en.wikipedia.org/wiki/William_Shakespeare",
+        "source_chunk_id": 5440,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 78,
+        "question": "Who was the team coached by Howard ?",
+        "ground_truth": "the Nuggets",
+        "source_url": "https://en.wikipedia.org/wiki/Juwan_Howard",
+        "source_chunk_id": 1256,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 79,
+        "question": "How did Edward Balliol injure himself after Edward entered Scotland ?",
+        "ground_truth": "He was expelled from Scotland in December 1333",
+        "source_url": "https://en.wikipedia.org/wiki/Brougham_Castle",
+        "source_chunk_id": 2656,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 80,
+        "question": "what publication is a current or past edition of The Definitive Notts County F.C ?",
+        "ground_truth": "The Definitive Notts County F.C . Nottingham : Tony Brown",
+        "source_url": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Notts_County_F.C._season",
+        "source_chunk_id": 1609,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 81,
+        "question": "Which character is not in the video game Sonic Spinball ?",
+        "ground_truth": "Robotnik",
+        "source_url": "https://en.wikipedia.org/wiki/Sonic_Spinball",
+        "source_chunk_id": 3512,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 82,
+        "question": "What happened in the 19th century ?",
+        "ground_truth": "the Kingdom of Yugoslavia was drawn into World War II",
+        "source_url": "https://en.wikipedia.org/wiki/Ba_Congress",
+        "source_chunk_id": 7024,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 83,
+        "question": "What is the difference between African elephants and Asian elephants ?",
+        "ground_truth": "African elephants have tusks in both males and females and are around the same length in both sexes , reaching up to 300 cm ( 9 ft 10 in ) , but those of males tend to be more massive",
+        "source_url": "https://en.wikipedia.org/wiki/Elephant",
+        "source_chunk_id": 6707,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 84,
+        "question": "who did edgy and hard-working Gerard have in common) ?",
+        "ground_truth": "Ottawa Rough Riders",
+        "source_url": "https://en.wikipedia.org/wiki/Eddie_Gerard",
+        "source_chunk_id": 4063,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 85,
+        "question": "Why did Marvel do this ?",
+        "ground_truth": "The first series to feature stories led by a female superhero , it portrayed Black Widow as a wealthy jet setter who doubled as a crime-fighter .",
+        "source_url": "https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)",
+        "source_chunk_id": 685,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 86,
+        "question": "What happened to Gallaher after New Zealand played a game in San Francisco ?",
+        "ground_truth": "He was released",
+        "source_url": "https://en.wikipedia.org/wiki/Dave_Gallaher",
+        "source_chunk_id": 3989,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 87,
+        "question": "What kind of music was Bush 's debut ?",
+        "ground_truth": "folk",
+        "source_url": "https://en.wikipedia.org/wiki/Alan_Bush",
+        "source_chunk_id": 3783,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 88,
+        "question": "how many parallaxes of proxima centauri are in the planet's orbit?",
+        "ground_truth": "768.50.2 mas",
+        "source_url": "https://en.wikipedia.org/wiki/Proxima_Centauri",
+        "source_chunk_id": 1915,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 89,
+        "question": "What is the name of the publication that contains a publication about birds?",
+        "ground_truth": "St. Martin 's Press",
+        "source_url": "https://en.wikipedia.org/wiki/Bibliography_of_encyclopedias:_biology",
+        "source_chunk_id": 557,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 90,
+        "question": "Where did the band perform at ?",
+        "ground_truth": "Marlay Park , Dublin",
+        "source_url": "https://en.wikipedia.org/wiki/Alice_in_Chains",
+        "source_chunk_id": 2827,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 91,
+        "question": "Who was the head of the ship until she was refitted ?",
+        "ground_truth": "Captain Hideo Yano",
+        "source_url": "https://en.wikipedia.org/wiki/Japanese_battleship_Nagato",
+        "source_chunk_id": 3036,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 92,
+        "question": "What was the author's name ?",
+        "ground_truth": "Mary Shelley",
+        "source_url": "https://en.wikipedia.org/wiki/Rambles_in_Germany_and_Italy",
+        "source_chunk_id": 717,
+        "metadata": {
+            "type": "factual"
+        }
+    },
+    {
+        "question_id": 93,
+        "question": "How much is the SR 520 transit fee ?",
+        "ground_truth": "$ 2",
+        "source_url": "https://en.wikipedia.org/wiki/Washington_State_Route_520",
+        "source_chunk_id": 4404,
         "metadata": {
             "type": "factual"
         }

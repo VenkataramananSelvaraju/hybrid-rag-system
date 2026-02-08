@@ -7,7 +7,7 @@ from tqdm import tqdm  # For progress bar
 # --- Configuration ---
 CORPUS_FILE = "rag_corpus.json"
 OUTPUT_FILE = "test_dataset.json"
-NUM_QUESTIONS = 10
+NUM_QUESTIONS = 100
 MODEL_NAME = "google/flan-t5-base"
 
 def load_corpus(filepath):
@@ -71,7 +71,7 @@ def generate_evaluation_dataset():
             "source_url": chunk['source_url'],
             "source_chunk_id": chunk['chunk_id'],
             "metadata": {
-                "type": "factual" # Placeholder for category
+                "type": "factual"
             }
         })
         

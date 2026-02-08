@@ -1,11 +1,94 @@
 question_id,question,generated_answer,ground_truth,mrr_score,precision_at_5,response_time,bert_f1
-1,what may be the reason the author would eat a omelette and cold ham on Christmas Day ?,to enjoy a glass of wine .,a glass of wine,1.0,1.0,1.0081870555877686,0.9393296837806702
-2,On which side was the original Custom House located ?,Wall Street,side,1.0,1.0,0.5357091426849365,0.8185135126113892
-3,Who was portrayed as the femme fatale in early stories ?,Black Widow,Black Widow,1.0,0.8,0.3883180618286133,0.9999998807907104
-4,What may have happened if the cyclone reentered the Atlantic during the day and reached Cape Cod on the evening of September 7 and 8 ?,many ships were stricken,New York,1.0,0.6,0.5090692043304443,0.8238966464996338
-5,What is the German side's view of the battle ?,generally considered a tactical success,tactical success,1.0,0.6,0.446591854095459,0.9082209467887878
-6,What was the cause of the marriage of Walter and Helen Kepler ?,Protestant,Kepler had inherited his grandfather 's nobility,1.0,1.0,0.33100104331970215,0.839464008808136
-7,What was the most exciting review of the film ?,Apocalypse,The New York Times called Karloff  so splendid in the role that all one can say is 'he is the Monster '' .,0.3333333333333333,0.2,0.6974859237670898,0.8269179463386536
-8,Ireland was a constituent part of the United Kingdom from which point in time ?,17 July 1956,1870,1.0,1.0,0.36790990829467773,0.8830743432044983
-9,What is the main theme of the book ?,The theme of movement,The Good Terrorist,0.2,0.2,0.3519630432128906,0.8846165537834167
-10,What was the basis of the early machine learning experiments?,the need to understand how organisms adapt to complex environments,perceptron learning algorithms,1.0,0.2,0.5281400680541992,0.8623995184898376
+1,How did Wollstonecraft feel after her suicide attempt ?,I was inhumanly brought back to life and misery,She felt inhumanly brought back to life and misery .,1.0,1.0,1.6148920059204102,0.9654415845870972
+2,"What is the first name of the person who published "" The Kepler-Kommission""?",Max,Johannes,1.0,0.6,0.39028286933898926,0.8761702179908752
+3,Where was Fanny Holtzmann born ?,London,London,1.0,0.2,0.3073751926422119,1.0000001192092896
+4,Who did the novel influence?,Barton Fink,American writers,0.25,0.2,0.4496781826019287,0.8661321401596069
+5,What type of computer scientist is considered a person who has acquired the knowledge of computer science ?,computer scientist,computer scientist,0.5,0.4,0.37943387031555176,0.9999995231628418
+6,What might have happened if Warren had won a lawsuit ?,Wynn retaliated,reprinted the strips,0.0,0.0,0.4562191963195801,0.8714286088943481
+7,"In the atmosphere , what is the amount of water that is dissolved in the nitrogen gas ?",The amount of water that is dissolved in the nitrogen gas is unknown .,.,1.0,0.4,0.7243978977203369,0.9148856401443481
+8,What was the title of the work the artist wrote ?,A Love Letter to Los Angeles,Nocturne : Blue and Gold – Old Battersea Bridge,0.0,0.0,0.42403292655944824,0.8333190679550171
+9,Which of the following is true of the artist ?,Makinti Napanangka is an artist .,Swift wrote Bad Blood .,0.0,0.0,0.6660096645355225,0.8417984843254089
+10,What country did the task force arrive in ?,Soviet tanks,South Korea,1.0,1.0,0.4062666893005371,0.8613848090171814
+11,Where was Metallica's first studio album released ?,Sweet Silence Studios,"Sweet Silence Studios in Copenhagen , Denmark",1.0,1.0,0.3557603359222412,0.9269993305206299
+12,Which song was a top ten hit of 2018?,Delicate,Delicate,1.0,0.6,0.3719160556793213,0.9999995231628418
+13,Where might I find this text ?,New York,Album,0.0,0.0,0.31217384338378906,0.8656008243560791
+14,How long after Oblivion is made will it be released ?,The game will be released in the first week after its release .,"The game will be released on the Xbox 360 on May 16 , 2005 .",1.0,1.0,0.58819580078125,0.90915447473526
+15,Modern physics is concerned with what ?,classical physics,the behavior of matter and energy under extreme conditions or on a very large or very small scale,0.5,0.6,0.37347412109375,0.8391145467758179
+16,what is the brain opioid theory of social attachment ?,BOTSA,BOTSA was a long-running theory summarizing this connection,1.0,1.0,0.40811586380004883,0.8942895531654358
+17,Who was second in the Hart Trophy voting ?,Richard,Richard,1.0,0.4,0.3247349262237549,1.000000238418579
+18,What does Barton Fink 's character 's wife want to do ?,She wants to have sex with Barton Fink .,drink,1.0,1.0,0.6933529376983643,0.8218103051185608
+19,"Phillips was on the national team at the 2008 Summer Olympics , which event was the first time a player had such a minor role on the team ?",2008 Summer Olympics,2008 Summer Olympics,1.0,1.0,0.42826199531555176,1.0
+20,What was Brougham Castle built for ?,Roman fort,The castle was built for the king 's control over more land .,1.0,1.0,0.38918089866638184,0.8535585999488831
+21,What year did Altgens begin his AP career ?,1938,1919,1.0,1.0,0.2771298885345459,0.9604688882827759
+22,When was the ship modernized ?,shortly before the Second World War,1934–1936,0.0,0.0,0.4307589530944824,0.8686727285385132
+23,What were the northern and southern histories based on?,Cistercian houses,Cistercian houses,1.0,0.2,0.44936609268188477,0.9999997019767761
+24,"Which of the following films was a Canadian pioneer in early Hollywood : Malice in Wonderland , James Dean , Race with Destiny, Michael Connors , Len Kaserman or The Three Stooges ?",Malice in Wonderland,Malice in Wonderland,1.0,0.4,0.478039026260376,1.0
+25,Who did Borchgrevink have a close ties to?,Scott,Sir James Clark Ross,1.0,1.0,0.37679624557495117,0.850742518901825
+26,By how much did the ship remain in Italian hands after it left Italy ?,The ship remained in Italian hands until Germany seized it in September 1943,3.3 in,1.0,0.6,0.6250410079956055,0.8537726998329163
+27,How many years after taking office did Arthur take office?,2,4,1.0,1.0,0.32221198081970215,0.9771537780761719
+28,What is the name of the gaspar that was discovered in 1969 by John S. Dewan ?,Paranthodon,Gaspra,0.0,0.0,0.42145514488220215,0.8327122330665588
+29,What is Sorabji 's occupation ?,composer,composer,1.0,1.0,0.31574511528015137,1.0000001192092896
+30,Garrard was entitled to claim what ?,vacant land,any vacant land,1.0,1.0,0.3394291400909424,0.9416077136993408
+31,"Who wrote the book "" Mushrooms and Other Fungi of North America ?""","Phillips , Roger , Geoffrey Kibby .","Phillips , Roger , Geoffrey Kibby , Nicky Foy",1.0,0.4,0.7279911041259766,0.9362527132034302
+32,What might be the reason that the band 's only similarity to the other groups is the confidence with which they perform ?,The band 's members sought to highlight social and political issues .,The band 's work is a tribute to the Velvet Underground .,1.0,0.4,0.7070341110229492,0.91056889295578
+33,What is Atomic physics a study of ?,the 20th century,matter,1.0,1.0,0.5977540016174316,0.8465376496315002
+34,Why did David hate the Guide Michelin standards ?,The Observer,She deplored ' fussy garnish ... distract [ ing ] from the main flavours,1.0,1.0,0.4029407501220703,0.8172399401664734
+35,What is the biological basis of romantic love ?,a desire for long-term mating,biological psychology,1.0,1.0,0.459522008895874,0.8565490245819092
+36,What's the date of the works of 1113 to 1116 ?,c. 1116,1116,1.0,0.6,0.37970590591430664,0.903958797454834
+37,What is the meaning of software as used in the context of the following?,software engineering,deployment,1.0,0.8,0.30101776123046875,0.901023805141449
+38,What country did the Australian command scout for ?,India,France,0.0,0.0,0.28764891624450684,0.9323404431343079
+39,what happened to Richard 's companion ?,Richard was diagnosed with abdominal cancer,Illness and death,1.0,1.0,0.3838367462158203,0.8605173826217651
+40,who was the director of the school ?,Gustav Holst,Kavvadias,0.3333333333333333,0.4,0.38440918922424316,0.8374473452568054
+41,What was the captain's last words after he refused to allow Jones on board his ship ?,Well-wisher to your son,"""I'm sorry .",1.0,1.0,0.508080005645752,0.8452556133270264
+42,what is the narrator describing ?,the room,The ships of the period .,0.0,0.0,0.2942960262298584,0.8906251192092896
+43,Who are the earliest people known to have ancestry in Mexico ?,Pueblo people,Mayan language family has no demonstrated genetic relationship to other language families,1.0,0.6,0.34658098220825195,0.8605262637138367
+44,Which of the following is true of Cher ?,Cher 's career has been marked by continual reinvention .,She is a high-fashion star .,1.0,1.0,0.5840058326721191,0.8966382741928101
+45,What did the United Kingdom and France declare war on in 1939 ?,Germany,Germany,0.2,0.2,0.3876800537109375,0.9999991655349731
+46,Who did Lansbury dislike the most ?,his Labour colleagues,the king,1.0,1.0,0.2974231243133545,0.8840677738189697
+47,What is characteristic about G. triplex rays ?,earthstars,the outer surface of the rays cracks,1.0,1.0,0.353712797164917,0.8320887088775635
+48,"rk2 and rkrk=[] For a given pair of integers , the quotient qk, k, and remainder rk are computed with what number of steps?",k,n + 0.06,1.0,1.0,0.36273694038391113,0.8689423203468323
+49,What kind of plant was there that lived before the watershed was cut off ?,native hardwoods,ecosystem,1.0,0.6,0.3262619972229004,0.8288527727127075
+50,What year was Helicopter 66 first commissioned by NASA?,1967,1969,1.0,1.0,0.2761828899383545,0.9664684534072876
+51,"The two guns were placed so , where was it likely that they were ?",were mounted on the forecastle under the bridge wings,inside a collapsible deckhouse,0.0,0.0,0.5086407661437988,0.8616043329238892
+52,What is the larnax ?,small coffin/ash-chest,small coffin or ash-chest,1.0,0.2,0.42804598808288574,0.9648115038871765
+53,What movie came in second in its third weekend ?,The Meg,Christopher Robin,1.0,0.6,0.36252403259277344,0.9104088544845581
+54,What kind of disease is Maraviroc?,HIV,HIV,1.0,0.2,0.3248870372772217,1.000000238418579
+55,Why is a reputable museum a popular choice for a burial place ?,The burial customs of the ancient Romans were influenced by both of the first significant cultures,Buddhists .,1.0,0.8,0.7068569660186768,0.8350314497947693
+56,What date did Simon Jenkins meet Coke ?,1706,1931,1.0,0.6,0.3128468990325928,0.9106065630912781
+57,Who were the four people who dated Cher from 1986 to 1989 ?,Sonny,Ron Duguay,1.0,1.0,0.42162513732910156,0.8403220772743225
+58,Who landed safely in Bod ?,LOT Polish Airlines Flight 16,Lydekker,1.0,0.4,0.3818240165710449,0.8196374177932739
+59,What is the name of the Self Driving Database ?,self driving database,Self Driving Database,1.0,0.2,0.36434507369995117,0.9723402857780457
+60,what did Thorne do ?,eloped with Gott,eloped with Gott,1.0,0.2,0.46726298332214355,1.0000001192092896
+61,Who is Logan ?,an English aristocrat,the author,1.0,1.0,0.4149181842803955,0.8688657283782959
+62,Who did Piquet lead ?,Prost,Rosberg,1.0,1.0,0.3177151679992676,0.8792977929115295
+63,How long is the dorsal stripe running ?,The dorsal stripe runs down the back .,The dorsal stripe runs from the skull along the spine to the start of the tail .,0.3333333333333333,0.2,0.6371829509735107,0.9305701851844788
+64,In the first millennium BC what did the pottery industry mainly do ?,pottery industry mainly made pottery,pottery industry mainly made pottery from the Middle Bronze Age to the present-day .,1.0,0.4,0.4156670570373535,0.9231232404708862
+65,Why did the saxophone not always use the saxophone ?,the tempi were too fast,The saxophone is not always used,1.0,1.0,0.5283141136169434,0.879349410533905
+66,What kind of fighting did the Red Army units engage the Soviet forces in ?,Counteroffensives,house-to-house and hand-to-hand fighting,0.3333333333333333,0.2,0.443997859954834,0.8481251001358032
+67,who are granted Irish citizenship if their birth is registered in the Foreign Birth Register or their parent was in public service while resident abroad ?,Irish parent who was also born overseas,Irish parents who were also born overseas,1.0,1.0,0.4651639461517334,0.978134274482727
+68,What is the name of the actor who starred in The King and I ?,Rex Harrison,Yul Brynner,1.0,0.8,0.35132312774658203,0.810715913772583
+69,who was Panagiotis Efstratiadis ?,archaeologist,Ephor General,1.0,0.8,0.3285079002380371,0.84400475025177
+70,what shape ?,squarish bundle,sandstone,0.0,0.0,0.43849706649780273,0.8691568374633789
+71,What did the Soviet army aim to do on the Karelian Isthmus ?,attack on the Isthmus,break the Mannerheim Line,1.0,1.0,0.49739909172058105,0.8716046810150146
+72,What is the style of the tombs that appear to be buried in a white church ?,Gothic,Gothic,1.0,1.0,0.35271215438842773,0.9999999403953552
+73,Who reported a total of 60 to 80 tanks and assault guns?,the 8th Air Corps,Schlachtgeschwader 1,1.0,1.0,0.36977505683898926,0.8112470507621765
+74,What was the most significant military achievement in the Finnish Air Force by the end of the war ?,planes in the Finnish Air Force rose by over 50 per cent,planes in the Finnish Air Force rose by over 50 per cent by the end of the war .,1.0,1.0,0.6003880500793457,0.9569395184516907
+75,What was the cause of the First World War ?,colonialism,"independence , the British government decided to grant self-government in 1923 .",1.0,0.6,0.5607600212097168,0.8292928338050842
+76,What is the relationship of first sight attraction and the core components of romantic love ?,courtship attraction only encompasses love at first sight attraction or a crush,courtship attraction only encompasses love at first sight attraction or a crush,1.0,1.0,0.6315720081329346,1.0000001192092896
+77,"In what year did Shakespeare first write ""The King's Men""?",English,1585,1.0,1.0,0.35796093940734863,0.8543723225593567
+78,Who was the team coached by Howard ?,Miami Heat,the Nuggets,1.0,1.0,0.3133981227874756,0.9062090516090393
+79,How did Edward Balliol injure himself after Edward entered Scotland ?,He was ambushed by supporters of David II,He was expelled from Scotland in December 1333,1.0,0.2,0.4929978847503662,0.8730972409248352
+80,what publication is a current or past edition of The Definitive Notts County F.C ?,Press,The Definitive Notts County F.C . Nottingham : Tony Brown,1.0,1.0,0.35607385635375977,0.8092182278633118
+81,Which character is not in the video game Sonic Spinball ?,Doctor Robotnik,Robotnik,1.0,1.0,0.3361778259277344,0.9351195096969604
+82,What happened in the 19th century ?,the yeomanry was held back for fear that its presence would provoke confrontation,the Kingdom of Yugoslavia was drawn into World War II,0.0,0.0,0.7640738487243652,0.8592376112937927
+83,What is the difference between African elephants and Asian elephants ?,African elephants have larger ears and concave backs,"African elephants have tusks in both males and females and are around the same length in both sexes , reaching up to 300 cm ( 9 ft 10 in ) , but those of males tend to be more massive",1.0,1.0,0.8287768363952637,0.8470960855484009
+84,who did edgy and hard-working Gerard have in common) ?,Anselm,Ottawa Rough Riders,1.0,0.6,0.3436238765716553,0.827080488204956
+85,Why did Marvel do this ?,She reformed and allied with the Avengers,"The first series to feature stories led by a female superhero , it portrayed Black Widow as a wealthy jet setter who doubled as a crime-fighter .",1.0,1.0,0.5826928615570068,0.8598504662513733
+86,What happened to Gallaher after New Zealand played a game in San Francisco ?,New Zealand tour,He was released,1.0,1.0,0.395479679107666,0.875898003578186
+87,What kind of music was Bush 's debut ?,contrapunt,folk,1.0,1.0,0.3286702632904053,0.8659014701843262
+88,how many parallaxes of proxima centauri are in the planet's orbit?,768.50.2 mas,768.50.2 mas,1.0,1.0,0.6069750785827637,0.9999995827674866
+89,What is the name of the publication that contains a publication about birds?,Covent-Garden Journal,St. Martin 's Press,0.2,0.2,0.45272397994995117,0.8368521928787231
+90,Where did the band perform at ?,AT & T Park,"Marlay Park , Dublin",0.25,0.4,0.3771069049835205,0.8408729434013367
+91,Who was the head of the ship until she was refitted ?,the head of the ship,Captain Hideo Yano,0.0,0.0,0.38954687118530273,0.8637075424194336
+92,What was the author's name ?,Neal,Mary Shelley,0.0,0.0,0.3590550422668457,0.866891622543335
+93,How much is the SR 520 transit fee ?,$ 40 million in 2024 dollars,$ 2,1.0,1.0,0.40555906295776367,0.8776224255561829
